@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>VocalSpot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" 
+ href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+  
+<body class="w3-black">
+  
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="Media/CowboyCircle.png" style="width:75%; margin: 15px auto">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#hymns" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-music w3-xxlarge"></i>
+      <p>Learn</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+  
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#hymns" class="w3-bar-item w3-button" style="width:25% !important">LEARN</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+  
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo">VocalSpot</h1>
+      <p style="max-width: 500px; margin: 0px auto 25px auto">&ldquo;Sing unto God, sing praises to his name: extol him that rideth upon the heavens by his name JAH, and rejoice before him.&rdquo; (Psalms 68:4, KJV)</p>
+      <img src="Media/CowboyCircle.png" alt="boy" class="w3-image" style="max-width: 500px; width: 100%">
+    </header>
+  
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">About Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>Howdy ya'll! My name is Nathan Cochran and I am a music enthusiast. This website is dedicated towards helping you learn to sing parts in harmony with one another--just listen and sing along!
+      <br><br>
+      The Hymns section of this website lets you search for songs and listen to the parts of the harmony either individually or together.
+
+       Check out my <a href="https://www.youtube.com/@nathanthebard/videos" target="_blank">Youtube Channel</a> for tutorials, challenges, and hymns.
+      </p>
+      
+      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">0+</span><br>
+          Tutorials
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">0+</span><br>
+          Hymns
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">0+</span><br>
+          Challenges
+        </div>
+      </div>
+    <!-- End About Section -->
+    </div>
+    
+    <!-- Hymns Section -->
+    <div class="w3-padding-64 w3-content" id="hymns">
+      <h2 class="w3-text-light-grey">Hymns</h2>
+      <hr style="width:200px" class="w3-opacity">
+
+      <p>Coming soon!</p>
+    <!-- End Portfolio Section -->
+    </div>
+  
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">Contact Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+  
+      <div class="w3-section">
+      <p>Want to request a song? Message me here!</p>
+  
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    <!-- End Contact Section -->
+    </div>
+  <!-- END PAGE CONTENT -->
+  </div>
+
+</body>
+
+</html>
+
